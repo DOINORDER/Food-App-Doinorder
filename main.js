@@ -22,6 +22,22 @@ const scrollRevealOption = {
   duration: 1000,
 };
 
+ScrollReveal().reveal(".box h5", {
+...scrollRevealOption,
+});
+ScrollReveal().reveal(".box h4", {
+...scrollRevealOption,
+delay: 500,
+});
+ScrollReveal().reveal(".box p", {
+...scrollRevealOption,
+delay: 1000,
+});
+ScrollReveal().reveal(".box-img img", {
+...scrollRevealOption,
+delay: 1500,
+});
+
 ScrollReveal().reveal(".header__container h2", {
   ...scrollRevealOption,
 });
