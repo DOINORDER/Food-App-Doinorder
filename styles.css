@@ -83,7 +83,7 @@ body {
 }
 
 nav {
-  position: fixed;
+  position: sticky;
   isolation: isolate;
   width: 100%;
   max-width: var(--max-width);
